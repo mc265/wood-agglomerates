@@ -53,7 +53,7 @@ enabled:false
             data: formattedData,
             tooltip: {
                 valueDecimals: 0,
-               valueSuffix: 'm3'
+               valueSuffix: 'tonnes'
             }
 	
         }]
