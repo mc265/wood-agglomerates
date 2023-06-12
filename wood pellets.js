@@ -1,4 +1,4 @@
-Highcharts.getJSON('https://raw.githubusercontent.com/mc265/export-of-forest-products/main/convertcsv%20(1).json', function (data) {
+Highcharts.getJSON('https://raw.githubusercontent.com/mc265/wood-agglomerates/main/wood%20agglomerates.json', function (data) {
   
   var formattedData = data.map(function (point) {
     var date = new Date(point[0]);
