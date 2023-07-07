@@ -1,4 +1,5 @@
 
+
 Highcharts.getJSON('https://raw.githubusercontent.com/mc265/wood-agglomerates/main/wood%20agglomerates.json', function (data) {
   
   var formattedData = data.map(function (point) {
@@ -41,7 +42,7 @@ enabled:false
             text: 'Wood pellets and other agglomerates'
         },
     
-   xAxis: {
+       xAxis: {
             type: 'date ',
             title: {
             enabled: true,
@@ -54,6 +55,8 @@ enabled:false
             text: 'tonnes'
           }
         },
+         
+        
         series: [{
             name: 'Wood pellets and other agglomerates',
             data: formattedData,
@@ -65,3 +68,4 @@ enabled:false
         }]
     });
 });
+
