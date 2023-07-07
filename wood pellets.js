@@ -41,19 +41,14 @@ enabled:false
             text: 'Wood pellets and other agglomerates'
         },
     
-      xAxis: {
+   xAxis: {
             type: 'date ',
-	      title: {
+            title: {
             enabled: true,
             text: 'Year'
             }
-         labels: {
-              format: '{value:%Y}'
-          
-            }
-         
         },
-	    yAxis: {
+         yAxis: {
           title:{
             enabled:true,
             text: 'tonnes'
