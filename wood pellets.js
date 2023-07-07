@@ -49,6 +49,12 @@ enabled:false
             }
          
         },
+	    yAxis: {
+          title:{
+            enabled:true,
+            text: 'tonnes'
+          }
+        },
         series: [{
             name: 'Wood pellets and other agglomerates',
             data: formattedData,
