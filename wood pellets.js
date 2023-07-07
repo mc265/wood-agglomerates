@@ -43,6 +43,10 @@ enabled:false
     
       xAxis: {
             type: 'date ',
+	      title: {
+            enabled: true,
+            text: 'Year'
+            }
          labels: {
               format: '{value:%Y}'
           
